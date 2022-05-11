@@ -1,7 +1,7 @@
-Существует 5 CSS препроцессоров: Sass, SCSS, Less, Stylus и PostCSS.
+//Существует 5 CSS препроцессоров: Sass, SCSS, Less, Stylus и PostCSS.
 
-SASS (.sass) Syntactically Awesome Style Sheets.
-SCSS (.scss) Sassy Cascading Style Sheets.
+//SASS (.sass) Syntactically Awesome Style Sheets.
+//SCSS (.scss) Sassy Cascading Style Sheets.
 
 // CSS - вложенность
 
@@ -32,7 +32,7 @@ SCSS (.scss) Sassy Cascading Style Sheets.
 //SCSS - оператор &
 
 #P {
-  color:black
+  color:black;
   a {
     font-weight: bold;
     &:hover {
