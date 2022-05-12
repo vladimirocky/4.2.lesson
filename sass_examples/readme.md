@@ -3,8 +3,8 @@
       SASS (.sass) Syntactically Awesome Style Sheets.
       SCSS (.scss) Sassy Cascading Style Sheets.
 ## Где читать про SASS
-[Расширения Sass | Оригинальная документация](https://sass-lang.com/documentation)
-[Расширения Sass | Документация на русском](https://sass-scss.ru/documentation/rasshirenie_css/)
+- [Расширения Sass | Оригинальная документация](https://sass-lang.com/documentation)
+- [Расширения Sass | Документация на русском](https://sass-scss.ru/documentation/rasshirenie_css/)
 ## Примеры
     Тут лежит три файла примеров
 1. *scss_ex1.scss* - вложенность
@@ -25,6 +25,6 @@
     Установка sass
    - *npm install -g sass*
 
-    Создание файла css и scss
+    Создание файла css из scss
    - *sass <from_filename.scss> <to_filename.css>*
    - например: *sass scss_ex1.scss scss_ex1.css*
