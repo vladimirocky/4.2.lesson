@@ -4,21 +4,23 @@ const PugPlugin = require('pug-plugin');
 module.exports = {
   output: {
     path: path.join(__dirname, '/'),
-    publicPath: '/', // must be defined any path, `auto` is not supported yet
+    publicPath: '/',
   },
   entry: {
-    index: './ex3.pug', // the `pug-plugin` extract HTML from entry file
+    // `pug-plugin` создаст HTML в качестве точки входа
+    index: './ex3.pug',
   },
   plugins: [
-    new PugPlugin(), // add it to handle pug files in entry
+    // необходимо добавить для обработки входного pug файла
+    new PugPlugin(),
   ],
   module: {
     rules: [
       {
         test: /\.pug$/,
-        loader: PugPlugin.loader, // the pug-plugin already contain this pug-loader
+        loader: PugPlugin.loader,
         options: {
-          method: 'render', // the fastest method to generate HTML files
+          method: 'render',
         }
       },
     ],

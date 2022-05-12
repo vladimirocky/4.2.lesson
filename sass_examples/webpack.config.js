@@ -3,7 +3,8 @@ module.exports = {
     rules: [
       //scss-sass loader
       {
-        test: /\.s[ac]ss$/i, // проверка расширения файлов (sass,scss)
+        // проверка расширения файлов (sass,scss)
+        test: /\.s[ac]ss$/i,
         use: [
           // Creates `style` nodes from JS strings
           "style-loader",
