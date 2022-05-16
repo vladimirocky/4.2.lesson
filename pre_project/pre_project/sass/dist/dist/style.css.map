@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["style.sass"],"sourcesContent":["$border-round: 70%\r\n\r\nbody\r\n     background: black\r\n\r\n.addTocart\r\n     border-radius: $border-round\r\n\r\n.removeTocart\r\n     border-radius: $border-round\r\n\r\n \r\n\r\n  \r\n  "],"file":"style.css"}
