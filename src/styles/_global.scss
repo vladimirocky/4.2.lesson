@@ -1,10 +1,21 @@
-html {
-   font-family: Kurale;
-   color: red;
+$br: 5px;
+$firstColor:darkcyan;
+
+body {
+   font-family: sans-serif;
+   color: $firstColor;
 }
 
-#app {
-   height: 300px;
-   display: block;
-   background: url("../images/3d-grid-png-image-20.png");
+button {
+   border-radius: 5px;
+   display: inline-block;
+   height: 30px;
+   background-color: $firstColor;
+   color: #ffffff;
+   cursor: pointer;
+   border: 0;
+   box-shadow: 0 0 5px $firstColor;
+   &:hover {
+      opacity: 0.9;
+   }
 }
