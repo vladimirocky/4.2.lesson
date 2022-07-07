@@ -1,0 +1,31 @@
+{
+  "name": "4.2.lesson",
+  "version": "1.0.0",
+  "description": "В данном репозитории размещены примеры **занятия 4.2** по трем темам: - использование **Pug**    - *./pug_examples* - использование **Sass** -   - *./sass_examples* - страничка на **Vue**    - *./Vue*",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimirocky/4.2.lesson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladimirocky/4.2.lesson/issues"
+  },
+  "homepage": "https://github.com/vladimirocky/4.2.lesson#readme",
+  "devDependencies": {
+    "pug-plugin": "^2.9.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "cli": "^1.0.1",
+    "express": "^4.18.1",
+    "pug": "^3.0.2"
+  }
+}
